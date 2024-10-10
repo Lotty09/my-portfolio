@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <title>My Portfolio</title>
-   </head>
+   
+</head>
 <body>
-    <h1>Ochuba Lotanna</h1>
-    <p>Hello! I'm Ochuba Lotanna, a passionate individual who loves exploring new technologies and learning about the world. I enjoy building projects, solving problems, and continuously improving my skills. In my free time, I like to read, play video games, and connect with other creators.</p>
 
-    <h2>My Skills</h2>
-    <table border="2" cellpadding="5" cellspacing="5">
-        <tr>
-            <th>Skill</th>
-            <th>Proficiency</th>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>Intermediate</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>Beginner</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>Beginner</td>
-        </tr>
-    </table>
+    <header>
+        <nav>
+            <a href="#home">Home</a><br/>
+            <a href="#about">About</a><br/>
+            <a href="#projects">Projects</a><br/>
+            <a href="#contact">Contact</a><br/>
+        </nav>
+    </header>
 
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Playing Games</li>
-        <li>Watching Movies</li>
-        <li>Travelling</li>
-    </ul>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm excited to share my work and story with you.</p>
+    </section>
 
-    <h2>Achievements</h2>
-    <ol>
-        <li>Passed my jamb</li>
-        <li>Created my first personal website</li>
-        <li>Passed my WAEC</li>
-    </ol>
+    <section id="about">
+        <img src="images/lotty.jpeg" alt="Profile Picture" width="200">
+        <div>
+            <h2>About Me</h2>
+            <p>Hello! I'm Ochuba Lotanna, a passionate web developer with experience in creating dynamic and responsive websites. I love coding and always strive to learn new things to improve my skills.</p>
+        </div>
+    </section>
 
-    <h2>Photo</h2>
-    <img src="images/lotty.jpeg" alt="Your Photo">
-    <figcaption><strong>Caption:</strong> This is a photo of me preparing to go out.</figcaption>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="images/image2.png" alt="Project 1">
+                <h3>Project One</h3>
+                <p>This project showcases my skills in front-end development using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <img src="images/image1.jpeg" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>A full-stack web application built with Node.js and MongoDB, designed to manage tasks efficiently.</p>
+            </div>
+            <div class="project">
+                <img src="images/image3.jpeg" alt="Project 3">
+                <h3>Project Three</h3>
+                <p>An e-commerce platform built using React, showcasing dynamic product listings and user interactions.</p>
+            </div>
+        </div>
+    </section>
 
-    <h2>Favorite Websites</h2>
-    <ul>
-        <li><a href="https://www.gameloft.com" class="link" target="_blank">Gameloft</a></li>
-        <li><a href="https://www.nkiri.com" class="link">nkiri</a></li>
-        <li><a href="https://www.wallpapers.com" class="link" target="_blank">wallpapers</a></li>
-    </ul>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br/>
+            <input type="email" name="email" placeholder="Your Email" required><br/>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br/>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
 </body>
 </html>
