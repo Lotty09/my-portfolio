@@ -1,64 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <title>My Portfolio</title>
-   
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <nav>
-            <a href="#home">Home</a><br/>
-            <a href="#about">About</a><br/>
-            <a href="#projects">Projects</a><br/>
-            <a href="#contact">Contact</a><br/>
+            <ul>
+                <li><a href="about me.html">About Me</a></li>
+                <li><a href="contact me.html">Contact Me</a></li>
+            </ul>
         </nav>
     </header>
-
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm excited to share my work and story with you.</p>
-    </section>
-
-    <section id="about">
-        <img src="images/lotty.jpeg" alt="Profile Picture" width="200">
-        <div>
-            <h2>About Me</h2>
-            <p>Hello! I'm Ochuba Lotanna, a passionate web developer with experience in creating dynamic and responsive websites. I love coding and always strive to learn new things to improve my skills.</p>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
-            <div class="project">
-                <img src="images/image2.png" alt="Project 1">
-                <h3>Project One</h3>
-                <p>This project showcases my skills in front-end development using HTML, CSS, and JavaScript.</p>
-            </div>
-            <div class="project">
-                <img src="images/image1.jpeg" alt="Project 2">
-                <h3>Project Two</h3>
-                <p>A full-stack web application built with Node.js and MongoDB, designed to manage tasks efficiently.</p>
-            </div>
-            <div class="project">
-                <img src="images/image3.jpeg" alt="Project 3">
-                <h3>Project Three</h3>
-                <p>An e-commerce platform built using React, showcasing dynamic product listings and user interactions.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required><br/>
-            <input type="email" name="email" placeholder="Your Email" required><br/>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br/>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
+    <main>
+        <section class="intro">
+            <h1>Ochuba Lotanna Gerald</h1>
+            <p>Aspiring Web Developer</p>
+            <img src="images/image1.jpg" alt="Your Profile Picture" class="profile-pic">
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: blue;
+    padding: 5px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+.profile-pic {
+    border-radius: 50px;
+    width: 70%;
+    height: 80%;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f0a500;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #f0a500;
+}
+
+h1{
+    font-size: large;
+    border-radius: 20%;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    form input, form textarea {
+        width: 90%;
+    }
+}
