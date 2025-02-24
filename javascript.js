@@ -29,6 +29,10 @@ function searchTutor() {
 
     displayTutors(filteredTutors);
 }
+// Function change color()
+function changecolor () {
+    document.querySelector(Search).style ;backgroundcolor="green";
+}
 
 // Display all tutors by default
 displayTutors(tutors);
